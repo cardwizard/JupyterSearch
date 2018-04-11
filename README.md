@@ -16,7 +16,7 @@ In [2]: get_ipython().register_magics(SearchMagic)
 
 In [3]: %create_index
 
-In [4]: search tesseract
+In [4]: %search tesseract
 Out[4]: Cell Number -> 2
         Notebook -> similarity.ipynb
         Notebook Execution Number -> 2
