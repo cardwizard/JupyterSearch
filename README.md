@@ -1,6 +1,7 @@
 # JupyterSearch
-Utility to help search within a set of jupyter notebooks
-I worked on creating a simple magic function to help us make this search easy and search across notebooks present in the current directory. It uses whoosh in the back-end to speed up the search. The code iterates through every cell in every notebook in your current directory. 
+Utility to help search within a set of jupyter notebooks.  
+I worked on creating a simple magic function to help us make this search easy and search **across notebooks** present in the current directory. It uses whoosh in the back-end to speed up the search. 
+**The code iterates through every cell in every notebook in your current directory.**
  
  
 How to use it?
