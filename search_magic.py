@@ -43,7 +43,7 @@ class SearchMagic(Magics):
         for note_num, notebook_path in enumerate(ipynb_notebooks):
             notebook = str(notebook_path)
 
-            with open(notebook) as f:
+            with open(notebook, 'r', encoding='utf-8') as f:
                 response = f.read()
 
             response_json = json.loads(response)["cells"]
